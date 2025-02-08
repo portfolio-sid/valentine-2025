@@ -56,7 +56,7 @@ img {
 button {
     padding: 15px 30px;
     font-size: 18px;
-    background-color: #4caf50;
+    background-color: #ff4081;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -64,10 +64,21 @@ button {
     transition: background-color 0.3s ease;
 }
 
+
 button:hover {
-    background-color: #45a049;
+    background-color: #d81b60;
 }
 
 p{
     color: hotpink;
+}
+
+#no {
+    background-color: #e53935;
+}
+
+/* Optional: Add a hover effect */
+#no:hover {
+    background-color: white;
+    color: #b71c1c;
 }
